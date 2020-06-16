@@ -15,6 +15,12 @@ router.post('/user' , controller.createUser);
 
 router.put('/user/:id' , controller.editPass)
 
+router.get('/notification' , controller.getAllNotification)
 
+router.get('/notification/:id' , controller.getNotification)
+
+router.put('/notification/:id' , controller.postNotification)
+
+router.post('/notification' , controller.postNewNoti)
 
 module.exports = router;
